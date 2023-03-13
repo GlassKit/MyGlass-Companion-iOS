@@ -1,0 +1,477 @@
+/* [MyGlass] Generic button text for advancing to the next screen (20 chars) */
+"continue_button" = "Continue";
+
+/* [MyGlass] Generic button text for confirmation (20 chars) */
+"ok_button" = "OK";
+
+/* [MyGlass] Generic button text for submission (20 chars) */
+"submit_button" = "Submit";
+
+/* [MyGlass] Generic button text for canceling (20 chars) */
+"cancel_button" = "Cancel";
+
+/* [MyGlass] Title for alert view telling user app does not have system-level access to location (30 chars) */
+"location_alert_no_core_location_title" = "Cannot get device's location";
+
+/* [MyGlass] Body for alert view telling user app does not have system-level access to location (80 chars) */
+"location_alert_no_core_location_message" = "Please go to the Settings app and enable location services for this app.";
+
+/* [MyGlass] Label for the device page and tab in menu (20 chars) */
+"device_title" = "Device";
+
+/* [MyGlass] Title for device page that says name of connected Glass. %@ refers to user name. (10 chars) */
+"device_glass_name" = "%@'s Glass";
+
+/* [MyGlass] Label for the button to add a Wi-Fi network (20 chars) */
+"device_add_wifi" = "Add Wi-Fi Network";
+
+/* [MyGlass] Label for field on device page that says what software version Glass is running (40 chars) */
+"device_software_version" = "Software Version:";
+
+/* [MyGlass] Label for field on device page that says what the connection status to Glass is (40 chars) */
+"device_connection_status" = "Status:";
+
+/* [MyGlass] Label for field on device page that says the last known location of Glass (40 chars) */
+"device_last_seen_location" = "Last seen:";
+
+/* [MyGlass] Value of connection status field on device page when Glass is connected (40 chars) */
+"device_connected" = "Connected";
+
+/* [MyGlass] Value of connection status field on device page when Glass is trying to connect (40 chars) */
+"device_connecting" = "Checking connection…";
+
+/* [MyGlass] Value of connection status field on deivce page when Glass is disconnected (40 chars) */
+"device_disconnected" = "Disconnected";
+
+/* [MyGlass] Value of any field that Glass hasn't told us yet (40 chars) */
+"device_unknown_info" = "Unknown";
+
+/* [MyGlass] Label for the page that lets users add a Wi-Fi network (20 chars) */
+"add_wifi_network_title" = "Add Wi-Fi Network";
+
+/* [MyGlass] Text that tells user how to scan QR code to add a Wi-Fi network. Split into 2 lines. This is the first line. (30 chars) */
+"add_wifi_how_to_scan_qr_code1" = "On Glass, go to\n";
+
+/* [MyGlass] Tells user how to scan QR code to add a Wi-Fi network. Split into 2 lines. This is the second line. It should tell users what to do on Glass. (50 chars) */
+"add_wifi_how_to_scan_qr_code2" = "Settings > Wi-Fi > Add Network";
+
+/* [MyGlass] Placeholder for text field where user inputs the name of a Wi-Fi network to connect to (30 chars) */
+"add_wifi_name_placeholder" = "Network Name (case sensitive)";
+
+/* [MyGlass] Placeholder for text field where user inputs password for Wi-Fi network (30 chars) */
+"add_wifi_password_placeholder" = "Password (optional)";
+
+/* [MyGlass] Title for page to specify encryption type in Wi-Fi setup (20 chars) */
+"wifi_encryption_title" = "Encryption Type";
+
+/* [MyGlass] Message shown to user to prompt them to select the encryption type of their Wi-Fi network (80 chars) */
+"wifi_encryption_message" = "If you have a hidden network, select your encryption type below:";
+
+/* [MyGlass] Table cell entry for encryption type "WPA/WPA2" (30 chars) */
+"wifi_encryption_wpa_wpa2" = "WPA/WPA2";
+
+/* [MyGlass] Table cell entry for encryption type "WEP" (30 chars) */
+"wifi_encryption_wep" = "WEP";
+
+/* [MyGlass] Table cell entry for encryption type "NONE" (30 chars) */
+"wifi_encryption_none" = "NONE";
+
+/* [MyGlass] Label for the contacts page and tab in menu (20 chars) */
+"contacts_title" = "Contacts";
+
+/* [MyGlass] Label for the active glassware page and tab in menu (20 chars) */
+"active_glassware_title" = "Active Glassware";
+
+/* [MyGlass] Error message when active glassware can't be loaded (40 chars) */
+"active_glassware_error" = "Server Error! Please retry.";
+
+/* [MyGlass] Title for description of glassware app. (20 chars) */
+"glassware_description_title" = "Description";
+
+/* [MyGlass] The list of required glassware permissions, where %@ is a comma-separated 
+    list of permissions (200 chars) */
+"glassware_permissions" = "*This glassware uses the following permissions: %@";
+
+/* [MyGlass] Displayed when a glassware does not use any permissions (200 chars) */
+"glassware_permissions_none" = "*This glassware does not require any permissions.";
+
+/* [MyGlass] Label for the Glassware Gallery page and tab in menu (20 chars) */
+"glassware_gallery_title" = "Glassware Gallery";
+
+/* [MyGlass] Error message when glassware gallery can't be loaded (40 chars) */
+"glassware_gallery_error" = "Server Error! Please retry.";
+
+/* [MyGlass] Indicates that the glassware is installed. (20 chars) */
+"glassware_installed" = "Installed";
+
+/* [MyGlass] Label for more info about the glassware in the actions menu (20 chars) */
+"glassware_more_info" = "More Info";
+
+/* [MyGlass] Label for settings for the glassware in the actions menu (20 chars) */
+"glassware_settings" = "Settings";
+
+/* [MyGlass] Label for support for the glassware in the actions menu (20 chars) */
+"glassware_support" = "Support";
+
+/* [MyGlass] Label for privacy policy of the glassware in the actions menu (20 chars) */
+"glassware_privacy_policy" = "Privacy Policy";
+
+/* [MyGlass] Error message when glassware could not be enabled or disabled (40 chars) */
+"glassware_toggle_error" = "Server Error! Please retry.";
+
+/* [MyGlass] Error message when glassware authorization page could not be loaded (40 chars) */
+"glassware_authorization_error" = "Server Error! Please retry.";
+
+/* [MyGlass] Section title for recommended glassware (30 chars) */
+"glassware_recommended_glassware" = "Recommended Glassware";
+
+/* [MyGlass] Button label to view more glassware (30 chars) */
+"glassware_more_glassware" = "More Glassware";
+
+/* [MyGlass] Label for the screencast page and tab in menu (20 chars) */
+"screencast_title" = "Screencast";
+
+/* [MyGlass] Message shown to users who try to screencast when the Glass display is off, asking them to turn on display. No more than 3 lines long; preferably 1. (200 chars) */
+"screencast_display_prompt" = "Tap the Glass touch pad to turn on your display";
+
+/* [MyGlass] Message shown to users who try to screencast when there's no connection to Glass. Tells them how they can connect. No more than 3 lines long. (200 chars) */
+"screencast_connect_prompt" = "Screencast can be activated in two ways:\n1) Pair with Glass via Bluetooth and turn on Personal Hotspot\n2) Connect Glass and your phone to the same Wi-Fi network";
+
+/* [MyGlass] Title of help page. Text also goes on button that links to help page. (20 chars) */
+"help_title" = "Help";
+
+/* [MyGlass] Title for page telling user that we're checking the connection between app and Glass (20 chars) */
+"oobe_checking_connection_title" = "Connecting to Glass";
+
+/* [MyGlass] Button label that lets user skip doing Personal Hotspot setup in out of box flow (40 chars) */
+"oobe_setup_wifi_button" = "Skip this, setup Glass using Wi-Fi";
+
+/* [MyGlass] Message telling user we're checking connection between Glass and app (80 chars) */
+"oobe_checking_connection_wait" = "Checking Bluetooth & Personal Hotspot.\nPlease wait a few seconds…";
+
+/* [MyGlass] Gives user information about why Personal Hotspot is useful. 2 lines separated by a blank line. (200 chars) */
+"oobe_checking_connection_info" = "A Personal Hotspot keeps Glass connected to mobile data as you move about.\n\nIt allows you to search, get directions and message your friends without needing a Wi-Fi network.";
+
+/* [MyGlass] Title of message shown to user after we've checked for a Personal Hotspot connection for a significant period of time. (40 chars) */
+"oobe_checking_connection_timeout_title" = "This is taking longer than expected…";
+
+/* [MyGlass] Message shown to user after we've checked for a Personal Hotspot connection for a significant period of time. (250 chars) */
+"oobe_checking_connection_timeout_message" = "You can finish setup using Wi-Fi if you're having trouble turning on a Personal Hotspot.\n\nOtherwise, please check to make sure that your Personal Hotspot is on and that you're paired to Glass via Bluetooth.";
+
+/* [MyGlass] Title of screen shown to user if they don't have a G+ account. (20 chars) */
+"oobe_no_gplus_title" = "Google+ not found";
+
+/* [MyGlass] Message shown to user if they don't have a G+ account. (200 chars) */
+"oobe_no_gplus" = "Looks like your Google account isn't registered to Google+. Please activate Google+ to use MyGlass.";
+
+/* [MyGlass] Title of screen shown to user if an error occurs during setup. (20 chars) */
+"oobe_setup_error_title" = "Setup error";
+
+/* [MyGlass] Message shown to user if an error occurs during setup. (80 chars) */
+"oobe_setup_error_message" = "An error occured during setup.\nPlease try again.";
+
+/* [MyGlass] Confirmation button on page shown to user if an error occurs during setup. (20 chars) */
+"oobe_setup_error_button" = "Try again";
+
+/* [MyGlass] Title for the first page that the user see when the app is started for the first time. (20 chars) */
+"oobe_welcome_title" = "Welcome to MyGlass";
+
+/* [MyGlass] Message on welcome screen (120 chars) */
+"oobe_welcome_message" = "Let's make sure that your Glass fits properly. Adjust the Glass display as shown above.";
+
+/* [MyGlass] Title for the page that gets login credentials from the user, generates a login token, and sends it to Glass (20 chars) */
+"oobe_login_token_title" = "Sign in to Glass";
+
+/* [MyGlass] Message shown to user in alert view when setup encountered a serious error. (30 chars) */
+"oobe_failed_message" = "Setup failed. Restarting…";
+
+/* [MyGlass] Title of screen shown to user telling user they already have a Glass device set up under their account (20 chars) */
+"oobe_setup_glass_title" = "Set up Glass";
+
+/* [MyGlass] Message on screen telling user they already have a Glass device set up under their account. 2 lines with a blank line in the middle. (200 chars) */
+"oobe_setup_another_message" = "You have previously set up a Glass using this account.\n\nWhat would you like to do now?";
+
+/* [MyGlass] Button that lets user go through setup flow again (20 chars) */
+"oobe_setup_glass_button" = "Set up Glass";
+
+/* [MyGlass] Button that skips setup flow (20 chars) */
+"oobe_setup_another_skip_button" = "Skip setup";
+
+/* [MyGlass] Title of screen that checks whether the user has a Glass setup, has a G+ account, etc (20 chars) */
+"oobe_setup_state_title" = "Checking account";
+
+/* [MyGlass] Title of screen that user sees while Glass tries to sign in to Google (20 chars) */
+"oobe_signing_in_title" = "Signing in";
+
+/* [MyGlass] Message that user sees while Glass tries to sign in to Google (40 chars) */
+"oobe_signing_in_message" = "This will take just a moment…";
+
+/* [MyGlass] Title of screen shown when user successfully connects app to Glass using Personal Hotspot (20 chars) */
+"oobe_success_title" = "Finished";
+
+/* [MyGlass] Header of screen shown when user successfully connects app to Glass using Personal Hotspot (30 chars) */
+"oobe_success_header" = "Congratulations";
+
+/* [MyGlass] Message shown when user successfully connects app to Glass using Personal Hotspot (80 chars) */
+"oobe_success_message" = "Glass is now receiving data from your iPhone. Looks like you're ready to go!";
+
+/* [MyGlass] Tells user how to scan QR code during OOBE to setup Wi-Fi. (80 chars) */
+"oobe_qr_code_prompt" = "Tap on your Glass touch pad to scan QR code and complete setup.";
+
+/* [MyGlass] Title of screen where users can enter Wi-Fi information to setup Glass (20 chars) */
+"oobe_wifi_setup_title" = "Connecting to Wi-Fi";
+
+/* [MyGlass] Title of terms of service pag es (20 chars) */
+"terms_of_service_title" = "Terms of Service";
+
+/* [MyGlass] Header of message shown to user on terms of service summary page (50 chars) */
+"terms_of_service_header" = "Glass will be tied to your Google account and:";
+
+/* [MyGlass] Header of location summary on terms of service summary page (20 chars) */
+"terms_of_service_location_header" = "Access your location";
+
+/* [MyGlass] Body of location summary on terms of service summary page (40 chars) */
+"terms_of_service_location_body" = "Share location with permitted services";
+
+/* [MyGlass] Header of auto backup summary on terms of service summary page (22 chars) */
+"terms_of_service_auto_backup_header" = "Auto Backup to Google+";
+
+/* [MyGlass] Body of auto backup summary on terms of service summary page (80 chars) */
+"terms_of_service_auto_backup_body" = "Privately store photos and videos in your Google+ Auto Backup album";
+
+/* [MyGlass] Message shown to user asking them to accept terms of service. %@ refers to the title of the terms of service page, stored in terms_of_service_title (80 chars) */
+"terms_of_service_agreement" = "By using this application, you agree to the %@.";
+
+/* [MyGlass] Button that lets user accept terms of service (20 chars) */
+"terms_of_service_button" = "Accept & continue";
+
+/* [MyGlass] Title of settings page (20 chars) */
+"settings_title" = "Settings";
+
+/* [MyGlass] Settings button that lets user sign out or set up another Glass (30 chars) */
+"settings_sign_out" = "Sign out / Set up Glass";
+
+/* [MyGlass] Alert title that confirms that the user wants to sign out and go through the setup flow again (30 chars) */
+"settings_confirm_sign_out_title" = "Are you sure you want to sign out?";
+
+/* [MyGlass] Alert subtitle telling the user what will happen after they sign out (30 chars) */
+"settings_confirm_sign_out_info" = "Signing out will bring you back to setup.";
+
+/* [MyGlass] Title of page that lets users change language for Glass. (20 chars) */
+"change_glass_language_title" = "Glass Language";
+
+/* [MyGlass] Error message for failure in fetching language list or changing language. (40 chars) */
+"change_glass_language_error" = "Server Error! Please retry.";
+
+/* [MyGlass] Title of page that lets users unlock their Glass. (20 chars) */
+"unlock_device_title" = "Unlock Device";
+
+/* [MyGlass] Error message for failure in fetching device unlock code. (40 chars) */
+"unlock_device_error" = "Server Error! Please retry.";
+
+/* [MyGlass] Title of page that lets users give feedback. (20 chars) */
+"report_issue_title" = "Report an issue";
+
+/* [MyGlass] Message shown to user that uploading feedback succeeded. (200 chars) */
+"upload_feedback_succeeded" = "Thank you, we received your feedback.";
+
+/* [MyGlass] Message shown to user that uploading feedback failed. (200 chars) */
+"upload_feedback_failed" = "Sorry, upload failed. Please try again later.";
+
+/* [MyGlass] OK to setup button shown to users when we detect that an un-setup Glass is connected. (20 chars) */
+"setup_device_alert_confirm" = "OK";
+
+/* [MyGlass] Alert title shown to users when an un-setup Glass is detected. (50 chars) */
+"setup_device_alert_title" = "New Glass detected. Do you want to set it up?";
+
+/* [MyGlass] Title for Explorers' community page (20 chars) */
+"explorers_title" = "Explorers";
+
+/* [MyGlass] Contacts Setup title (20 chars) */
+"contacts_setup_title" = "Set up Contacts";
+
+/* [MyGlass] Contacts - Headline for welcome message which describing new contacts management when doing OOBE(50 chars) */
+"contacts_welcome_oobe_headline" = "Managing contacts just got simpler";
+
+/* [MyGlass] Contacts - Body for welcome message which describing new contacts management when doing OOBE (200 chars) */
+"contacts_welcome_oobe_body" = "You will no longer need to manage a separate set of Glass contacts. All your Google contacts now show up on Glass and we’ll make sure that you have easy access to your starred favourites.";
+
+/* [MyGlass] Contacts - Headline for welcome message which describing new contacts management when contacts is selected from drawer (50 chars) */
+"contacts_welcome_drawer_headline" = "Set up contacts on Glass";
+
+/* [MyGlass] Contacts - Body for welcome message which describing new contacts management when contacts is selected from drawer (200 chars) */
+"contacts_welcome_drawer_body" = "Glass uses your Google contacts to make calls and send messages. We’ll help you set up your Google contacts so that it will work with your iOS Address Book.";
+
+/* [MyGlass] Contacts - Headline for prompting user to import their contacts to Google (50 chars) */
+"contacts_import_headline" = "Add iPhone contacts";
+
+/* [MyGlass] Contacts - Text for prompting user to import their contacts to Google. (200 chars) */
+"contacts_import_body" = "Would you like to import your iPhone's Contacts to Google Contacts? This will upload your contacts to Google servers.";
+
+/* [MyGlass] Contacts - Button to confirmation contacts importing (20 chars) */
+"contacts_import_button" = "Import contacts";
+
+/* [MyGlass] Contacts - Button to skip contacts importing (20 chars) */
+"contacts_import_skip_button" = "Skip this";
+
+/* [MyGlass] Contacts - Address import in progress (100 chars) */
+"contacts_import_in_progress_body" = "Importing contacts";
+
+/* [MyGlass] Contacts - Headline to introduce contact permission screen  (50 chars) */
+"contacts_import_permission_headline" = "MyGlass needs permissions to import contacts";
+
+/* [MyGlass] Contacts - Instructions on how to enable contact permission for Glass (60 chars) */
+"contacts_import_permission_step1" = "Exit MyGlass app";
+
+/* [MyGlass] Contacts - Instructions on how to enable contact permission for Glass (60 chars) */
+"contacts_import_permission_step2" = "Open Settings app";
+
+/* [MyGlass] Contacts - Instructions on how to enable contact permission for Glass (60 chars) */
+"contacts_import_permission_step3" = "Tap Privacy";
+
+/* [MyGlass] Contacts - Instructions on how to enable contact permission for Glass (60 chars) */
+"contacts_import_permission_step4" = "Tap Contacts";
+
+/* [MyGlass] Contacts - Instructions on how to enable contact permission for Glass (60 chars) */
+"contacts_import_permission_step5" = "Turn MyGlass toggle on";
+
+/* [MyGlass] Contacts - Button to end contacts setup (on the contact syncing introduction page) (20 chars) */
+"contacts_import_permission_button" = "Confirmed, got it";
+
+/* [MyGlass] Contacts - Confirmation dialog title asking the user whether to import or not (20 chars) */
+"contacts_import_dialog_title" = "Permission not granted";
+
+/* [MyGlass] Contacts - Confirmation dialog body asking the user whether to import or not (75 chars) */
+"contacts_import_dialog_body" = "Permission to access Contacts has not been granted";
+
+/* [MyGlass] Contacts - Confirmation dialog button that brings user back to import page to verify settings (20 chars) */
+"contacts_import_dialog_button" = "Back";
+
+/* [MyGlass] Contacts - Confirmation dialog button that lets user skip importing (20 chars) */
+"contacts_import_dialog_skip_button" = "Skip import";
+
+/* [MyGlass] Contacts - Text for telling the user that contacts importing failed. (200 chars) */
+"contacts_import_failed_body" = "There was an issue importing contacts.";
+
+/* [MyGlass] Contacts - Headline to introduce contact syncing (50 chars) */
+"contacts_sync_headline" = "Keep your phone's contacts synced with Glass";
+
+/* [MyGlass] Contacts - Step number in the ordered list of instructions. e.g. "1." (4 chars) */
+"contacts_step_count" = "%d.";
+
+/* [MyGlass] Contacts - Instructions on how to sync contacts from iPhone to Glass (60 chars) */
+"contacts_sync_step1" = "Exit MyGlass app";
+
+/* [MyGlass] Contacts - Instructions on how to sync contacts from iPhone to Glass (60 chars) */
+"contacts_sync_step2" = "Open Settings app";
+
+/* [MyGlass] Contacts - Instructions on how to sync contacts from iPhone to Glass (60 chars) */
+"contacts_sync_step3" = "Tap Mail, Contacts, Calendars";
+
+/* [MyGlass] Contacts - Instructions on how to sync contacts from iPhone to Glass (60 chars) */
+"contacts_sync_step4" = "Tap on existing Google Account";
+
+/* [MyGlass] Contacts - Instructions on how to sync contacts from iPhone to Glass (60 chars) */
+"contacts_sync_step5" = "Turn Contacts toggle on";
+
+/* [MyGlass] Contacts - Button to end contacts setup (on the contact syncing introduction page) (20 chars) */
+"contacts_sync_button" = "Confirmed, got it";
+
+/* [MyGlass] Contacts - Confirmation dialog title asking user to verify their sync settings (20 chars) */
+"contacts_sync_verify_title" = "Verify Sync Settings";
+
+/* [MyGlass] Contacts - Confirmation dialog body asking user to verify their sync settings (200 chars) */
+"contacts_sync_verify_body" = "If your account sync settings are not on, you will not be able to keep your phone's contacts up to date on Glass.";
+
+/* [MyGlass] Contacts - Confirmation dialog button that brings user back to sync page to verify settings (20 chars) */
+"contacts_sync_back_button" = "Back";
+
+/* [MyGlass] Contacts - Confirmation dialog button that lets user skip syncing (20 chars) */
+"contacts_sync_skip_button" = "Skip";
+
+/* [MyGlass] Contacts - Headline to introduce contact starring (50 chars) */
+"contacts_star_headline" = "Star your favourite contacts";
+
+/* [MyGlass] Contacts - Body to introduce contact starring (300 chars) */
+"contacts_star_body" = "Glass allows you to access up to 20 contacts by voice. We’ll generate this list using your recent contacts and starred favourites. You can access the rest of your contacts with a swipe from the contacts list.";
+
+/* [MyGlass] Contacts - Button to confirmation contacts starring (20 chars) */
+"contacts_star_button" = "Star contacts";
+
+/* [MyGlass] Contacts - Button to show all contacts (20 chars) */
+"contacts_all_contacts_button" = "All contacts";
+
+/* [MyGlass] Contacts - Button to show only starred contacts (20 chars) */
+"contacts_starred_button" = "Starred";
+
+/* [MyGlass] Contacts - Message to show when contacts were not found (200 chars) */
+"contacts_no_contacts" = "No contacts found. Add contacts at contacts.google.com.";
+
+/* [MyGlass] Contacts - Dialog title to show when there's an error starring a contact (50 chars) */
+"contacts_star_error_title" = "Could not star";
+
+/* [MyGlass] Contacts - Dialog title to show when there's an error unstarring a contact (50 chars) */
+"contacts_unstar_error_title" = "Could not unstar";
+
+/* [MyGlass] Contacts - Message to show when there's an error starring a contact (100 chars) */
+"contacts_star_error" = "There was an issue starring the contact. Please try again.";
+
+/* [MyGlass] Contacts - Message to show when there's an error un-starring a contact (100 chars) */
+"contacts_unstar_error" = "There was an issue unstarring the contact. Please try again.";
+
+/* [MyGlass] Contacts - Label for the button which dismisses a dialog. (20 chars) */
+"contacts_dismiss_button" = "Dismiss";
+
+/* [MyGlass] Contacts - Message to show that we can't get the list of contacts. (200 chars) */
+"contacts_error_getting_contacts" = "There was an issue getting the contacts. Please try again.";
+
+/* [MyGlass] Contacts - Label for the try again button. (20 chars) */
+"contacts_try_again_button" = "Try again";
+
+/* [MyGlass] Photos - States number of recently taken photos (40 chars) */
+"photos_recently_taken" = "%d Recent Photos";
+
+/* [MyGlass] Photos - MyGlass album name - DO NOT TRANSLATE */
+"photos_album_name" = "MyGlass";
+
+/* [MyGlass] Photos - Label for the page showing a single recently taken photo. (20 chars) */
+"photo_page_title" = "Recent Photos";
+
+/* [MyGlass] Photos - Label for the share button on the photo page. (20 chars) */
+"photo_share_button" = "Share";
+
+/* [MyGlass] Photos - Title of the settings page for turning on and off photo sync. (20 chars) */
+"photo_settings_title" = "Photo Sync";
+
+/* [MyGlass] Photos - Description of photo sync feature (shown on settings page). (60 chars) */
+"photo_settings_description" = "Save photos taken on Glass to the Photos app";
+
+/* [MyGlass] Photos - Footnote describing requirements for photo sync on photo sync settings page. (200 chars) */
+"photo_settings_footnote" = "*Requires a Bluetooth connection to Glass and personal hotspot to transfer photos –OR – connect Glass and your phone to the same Wi-Fi network";
+
+/* [MyGlass] Photos - Description on page showing user how to grant MyGlass access to the camera roll. (100 chars) */
+"photo_permissions_description" = "MyGlass needs permissions to save photos from Glass to the Photos app";
+
+/* [MyGlass] Photos - Step in tutorial to enable permissions for photo sync. (60 chars) */
+"photo_permissions_step1" = "Exit MyGlass app";
+
+/* [MyGlass] Photos - Step in tutorial to enable permissions for photo sync. (60 chars) */
+"photo_permissions_step2" = "Open Settings app";
+
+/* [MyGlass] Photos - Step in tutorial to enable permissions for photo sync. (60 chars) */
+"photo_permissions_step3" = "Tap Privacy";
+
+/* [MyGlass] Photos - Step in tutorial to enable permissions for photo sync. (60 chars) */
+"photo_permissions_step4" = "Tap Photos";
+
+/* [MyGlass] Photos - Step in tutorial to enable permissions for photo sync. (60 chars) */
+"photo_permissions_step5" = "Turn MyGlass toggle on";
+
+/* [MyGlass] Photos - Introduction paragraph describing how photosharing works. (200 chars) */
+"photo_intro_description" = "You can now save photos taken on Glass to your phone's Photos app. Visit MyGlass settings for more info.";
+
+/* [MyGlass] Photos - Button text to dismiss intro card to turn on photosharing. (20 chars) */
+"photo_button_dismiss" = "Dismiss";
+
+/* [MyGlass] Photos - Button text to turn on photosharing. (20 chars) */
+"photo_button_turn_on" = "Turn on";
